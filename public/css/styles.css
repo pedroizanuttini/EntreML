@@ -149,6 +149,15 @@ header nav {
     position: relative;
 }
 
+.producto .pdp-title{
+    visibility: hidden;
+}
+
+.producto:hover .pdp-title{
+    visibility: visible;
+}
+
+
 .camion{
     display:block;
     font-size: 16px;
@@ -162,6 +171,7 @@ header nav {
     right: 20px;
     top:-15px;
     transition: all 250ms ease-in-out;
+    color:#39b54a;
 }
 
 .camion:hover{
@@ -171,8 +181,8 @@ header nav {
 
 .valores{
     display:flex;
+    align-items: center;
     justify-content: center;
-    width: 100%;
 }
 
 .precio{
@@ -226,6 +236,18 @@ footer{
     padding: 2px 0px;
 }
 
+.pagos_icon i:hover{
+    color:#EAC926;
+}
+
+.envios_icon i:hover{
+    color:#EAC926;
+}
+
+.seguridad_icon i:hover{
+    color:#EAC926;
+}
+
 
 .main-footer_title-copyright{
     margin-top: 20px;
@@ -239,6 +261,7 @@ footer{
     margin-top: 20px;
 }
 
+
 .main-footer-envios{
     margin-top: 20px;
 }
@@ -250,6 +273,7 @@ footer{
 .footer-icon .i{
 
 }
+
 
 .main-footer_title{
     letter-spacing: 2px;
