@@ -212,6 +212,18 @@ footer{
     padding: 2px 0px;
 }
 
+.pagos_icon i:hover{
+    color:#EAC926;
+}
+
+.envios_icon i:hover{
+    color:#EAC926;
+}
+
+.seguridad_icon i:hover{
+    color:#EAC926;
+}
+
 .main-footer_title-copyright{
     margin-top: 20px;
     color:#666;

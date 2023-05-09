@@ -130,8 +130,17 @@ header nav {
 }
 
 .item:hover{
-   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); 
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+ }
+
+.pdp-title{
+    display:none;
 }
+
+.item:hover .pdp-title {
+    visibility: visible;
+}
+
 
 .item__image-container{
     width: 100%;
@@ -149,13 +158,13 @@ header nav {
     position: relative;
 }
 
-.producto .pdp-title{
+/* .producto .pdp-title{
     visibility: hidden;
 }
 
 .producto:hover .pdp-title{
     visibility: visible;
-}
+} */
 
 
 .camion{
@@ -182,18 +191,18 @@ header nav {
 .valores{
     display:flex;
     align-items: center;
-    justify-content: center;
 }
 
 .precio{
-    width: 30%;
+    width: 35%;
     font-size:17px;
+
 }
 
 .descuento{
-    width: 70%;
+    width: 65%;
     color:#39b54a;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .pdp-title{
